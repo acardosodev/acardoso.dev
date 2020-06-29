@@ -3,19 +3,19 @@
   'database' => 
   array (
     'driver' => 'mysql',
-    'host' => 'mysql669.umbler.com',
+    'host' => 'localhost',
     'port' => 3306,
     'database' => 'acardoso',
-    'username' => 'acardoso',
-    'password' => '4lan4raujo',
+    'username' => 'root',
+    'password' => '',
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
-    'prefix' => 'acard_',
+    'prefix' => 'db_',
     'strict' => false,
     'engine' => 'InnoDB',
     'prefix_indexes' => true,
   ),
-  'url' => 'https://acardoso.dev',
+  'url' => 'http://localhost/acardoso.dev',
   'paths' => 
   array (
     'api' => 'api',
