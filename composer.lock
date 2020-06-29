@@ -4,8 +4,171 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05e91b93b7480f03cd13890474563c1e",
+    "content-hash": "2c97827215e98882d7d98d08997e7f80",
     "packages": [
+        {
+            "name": "askvortsov/flarum-copy-links",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/askvortsov1/flarum-copy-links.git",
+                "reference": "2c03dfaed1568efc97753a9ddaad5424e002b527"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/askvortsov1/flarum-copy-links/zipball/2c03dfaed1568efc97753a9ddaad5424e002b527",
+                "reference": "2c03dfaed1568efc97753a9ddaad5424e002b527",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flarum Copy Links",
+                    "icon": {
+                        "name": "fas fa-copy",
+                        "backgroundColor": "#6932D1",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/23885-copy-post-and-discussion-links"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Askvortsov\\FlarumCopyLinks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Skvortsov",
+                    "email": "sasha.skvortsov109@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Copy Discussion and Post links in Flarum",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2020-05-26T03:13:14+00:00"
+        },
+        {
+            "name": "askvortsov/flarum-discussion-templates",
+            "version": "v0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/askvortsov1/flarum-discussion-templates.git",
+                "reference": "26e8b677ed75a878eb5f16cbb5880bd4caa2cd57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/askvortsov1/flarum-discussion-templates/zipball/26e8b677ed75a878eb5f16cbb5880bd4caa2cd57",
+                "reference": "26e8b677ed75a878eb5f16cbb5880bd4caa2cd57",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flarum Discussion Templates",
+                    "icon": {
+                        "name": "fas fa-plus-square",
+                        "backgroundColor": "#6932D1",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/23950-discussion-templates-per-tag"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Askvortsov\\FlarumDiscussionTemplates\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Skvortsov",
+                    "email": "sasha.skvortsov109@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create per-tag templates for new discussions.",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2020-06-01T15:23:05+00:00"
+        },
+        {
+            "name": "askvortsov/flarum-pwa",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/askvortsov1/flarum-pwa.git",
+                "reference": "49981c8b2e5aa3fb4ddba068b7e76722afc5df69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/askvortsov1/flarum-pwa/zipball/49981c8b2e5aa3fb4ddba068b7e76722afc5df69",
+                "reference": "49981c8b2e5aa3fb4ddba068b7e76722afc5df69",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "suggest": {
+                "ext-gmp": "This is required for push notifications",
+                "minishlink/web-push": "This is required for push notifications"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flarum Progressive Web App",
+                    "icon": {
+                        "name": "fas fa-mobile-alt",
+                        "backgroundColor": "#6932D1",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Askvortsov\\FlarumPWA\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Skvortsov",
+                    "email": "sasha.skvortsov109@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Turn your flarum site into a progressive web app!",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2020-06-05T01:43:22+00:00"
+        },
         {
             "name": "axy/backtrace",
             "version": "1.0.7",
@@ -183,6 +346,60 @@
             "time": "2018-04-16T13:23:46+00:00"
         },
         {
+            "name": "clarkwinkelmann/flarum-ext-colorful-borders",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clarkwinkelmann/flarum-ext-colorful-borders.git",
+                "reference": "dc3bc5d30dee1befba7cf98311929d6cadfdaa7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clarkwinkelmann/flarum-ext-colorful-borders/zipball/dc3bc5d30dee1befba7cf98311929d6cadfdaa7a",
+                "reference": "dc3bc5d30dee1befba7cf98311929d6cadfdaa7a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Colorful Borders",
+                    "icon": {
+                        "name": "fas fa-palette",
+                        "backgroundColor": "#c42130",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/23303"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ClarkWinkelmann\\ColorfulBorders\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mess up with each individual post styling",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2020-04-01T01:40:06+00:00"
+        },
+        {
             "name": "components/font-awesome",
             "version": "5.9.0",
             "source": {
@@ -216,6 +433,399 @@
             ],
             "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
             "time": "2019-06-07T02:02:10+00:00"
+        },
+        {
+            "name": "composer/ca-bundle",
+            "version": "1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8",
+                "psr/log": "^1.0",
+                "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-08T08:27:21+00:00"
+        },
+        {
+            "name": "composer/composer",
+            "version": "1.10.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "56e0e094478f30935e9128552188355fa9712291"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/composer/zipball/56e0e094478f30935e9128552188355fa9712291",
+                "reference": "56e0e094478f30935e9128552188355fa9712291",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.0",
+                "composer/semver": "^1.0",
+                "composer/spdx-licenses": "^1.2",
+                "composer/xdebug-handler": "^1.1",
+                "justinrainbow/json-schema": "^5.2.10",
+                "php": "^5.3.2 || ^7.0",
+                "psr/log": "^1.0",
+                "seld/jsonlint": "^1.4",
+                "seld/phar-utils": "^1.0",
+                "symfony/console": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/filesystem": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/finder": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/process": "^2.7 || ^3.0 || ^4.0 || ^5.0"
+            },
+            "conflict": {
+                "symfony/console": "2.8.38"
+            },
+            "require-dev": {
+                "phpspec/prophecy": "^1.10",
+                "symfony/phpunit-bridge": "^4.2"
+            },
+            "suggest": {
+                "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
+                "ext-zip": "Enabling the zip extension allows you to unzip archives",
+                "ext-zlib": "Allow gzip compression of HTTP requests"
+            },
+            "bin": [
+                "bin/composer"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\": "src/Composer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Composer helps you declare, manage and install dependencies of PHP projects. It ensures you have the right stack everywhere.",
+            "homepage": "https://getcomposer.org/",
+            "keywords": [
+                "autoload",
+                "dependency",
+                "package"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-24T19:23:30+00:00"
+        },
+        {
+            "name": "composer/semver",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/semver.git",
+                "reference": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/semver/zipball/c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
+                "reference": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5 || ^5.0.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Semver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "keywords": [
+                "semantic",
+                "semver",
+                "validation",
+                "versioning"
+            ],
+            "time": "2020-01-13T12:06:48+00:00"
+        },
+        {
+            "name": "composer/spdx-licenses",
+            "version": "1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/spdx-licenses.git",
+                "reference": "0c3e51e1880ca149682332770e25977c70cf9dae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/0c3e51e1880ca149682332770e25977c70cf9dae",
+                "reference": "0c3e51e1880ca149682332770e25977c70cf9dae",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Spdx\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "SPDX licenses list and validation library.",
+            "keywords": [
+                "license",
+                "spdx",
+                "validator"
+            ],
+            "time": "2020-02-14T07:44:31+00:00"
+        },
+        {
+            "name": "composer/xdebug-handler",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/xdebug-handler.git",
+                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
+                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\XdebugHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Stevenson",
+                    "email": "john-stevenson@blueyonder.co.uk"
+                }
+            ],
+            "description": "Restarts a process without Xdebug.",
+            "keywords": [
+                "Xdebug",
+                "performance"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-04T11:16:35+00:00"
+        },
+        {
+            "name": "datitisev/flarum-ext-dashboard",
+            "version": "v0.1.0-beta.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datitisev/flarum-ext-dashboard.git",
+                "reference": "cfa716865385e974d47c6f0ba07ba9f2c008349b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datitisev/flarum-ext-dashboard/zipball/cfa716865385e974d47c6f0ba07ba9f2c008349b",
+                "reference": "cfa716865385e974d47c6f0ba07ba9f2c008349b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta-8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Dashboard",
+                    "icon": {
+                        "name": "fas fa-tachometer-alt",
+                        "backgroundColor": "#3F51B5",
+                        "color": "#FFEB3B"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datitisev\\Dashboard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "me@datitisev.me",
+                    "homepage": "https://datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A dashboard for the admin interface in Flarum",
+            "funding": [
+                {
+                    "url": "https://github.com/datitisev",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-04-09T14:53:27+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -762,6 +1372,60 @@
             "time": "2017-01-23T04:29:33+00:00"
         },
         {
+            "name": "dynastyking/flarum-lang-ptbr",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DynastyKing/flarum-lang-ptbr.git",
+                "reference": "ed5307794526e128800e8bd94df605425c4fc078"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DynastyKing/flarum-lang-ptbr/zipball/ed5307794526e128800e8bd94df605425c4fc078",
+                "reference": "ed5307794526e128800e8bd94df605425c4fc078",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Brazilian Portuguese",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#007c00",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "pt-BR",
+                    "title": "Brazilian Portuguese"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andre Bezerra",
+                    "email": "arbezerra@gmail.com",
+                    "homepage": "https://www.andrebezerra.com"
+                }
+            ],
+            "description": "Brazilian Portuguese language pack.",
+            "homepage": "https://github.com/DynastyKing/flarum-lang-ptbr",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2019-04-23T20:38:29+00:00"
+        },
+        {
             "name": "egulias/email-validator",
             "version": "2.1.18",
             "source": {
@@ -864,6 +1528,83 @@
                 "parser"
             ],
             "time": "2019-12-30T22:54:17+00:00"
+        },
+        {
+            "name": "extiverse/bazaar",
+            "version": "0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/extiverse/bazaar.git",
+                "reference": "66494aa1c794923c26f62d5b1d552a06ed29c831"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/extiverse/bazaar/zipball/66494aa1c794923c26f62d5b1d552a06ed29c831",
+                "reference": "66494aa1c794923c26f62d5b1d552a06ed29c831",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "flarum/core": "^0.1.0-beta.9",
+                "fof/console": "^0.5",
+                "guzzlehttp/guzzle": "^6.2"
+            },
+            "replace": {
+                "flagrow/bazaar": "*"
+            },
+            "require-dev": {
+                "flagrow/steamroller": "dev-master"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Bazaar",
+                    "icon": {
+                        "image": "resources/logo.svg",
+                        "backgroundColor": "#5f4bb6",
+                        "backgroundSize": "90%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5151"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Extiverse\\Bazaar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com"
+                }
+            ],
+            "description": "The Flarum extension marketplace.",
+            "keywords": [
+                "extend",
+                "extension",
+                "extensions",
+                "extiverse",
+                "flarum",
+                "marketplace",
+                "paid",
+                "premium"
+            ],
+            "abandoned": true,
+            "time": "2019-11-11T10:50:08+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -977,6 +1718,63 @@
                 "whoops"
             ],
             "time": "2020-06-14T09:00:00+00:00"
+        },
+        {
+            "name": "flagrow/fonts",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/fonts.git",
+                "reference": "02b45bff8e07afe1015910e6e44fe00aad90e812"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/fonts/zipball/02b45bff8e07afe1015910e6e44fe00aad90e812",
+                "reference": "02b45bff8e07afe1015910e6e44fe00aad90e812",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8",
+                "guzzlehttp/guzzle": "^6.2"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flagrow Fonts",
+                    "icon": {
+                        "name": "fas fa-font",
+                        "backgroundColor": "#f4f4f4",
+                        "color": "#5f4bb6"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/6207"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\Fonts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Easily add fonts to your Flarum",
+            "keywords": [
+                "extension",
+                "flagrow",
+                "flarum",
+                "fonts"
+            ],
+            "time": "2018-12-09T20:38:18+00:00"
         },
         {
             "name": "flarum/approval",
@@ -2182,6 +2980,59 @@
             "time": "2020-05-04T08:48:54+00:00"
         },
         {
+            "name": "flarumite/flarum-decontaminator",
+            "version": "0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flarumite/flarum-decontaminator.git",
+                "reference": "90f5cef8ec80c60996e3a69edfb870f614292457"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flarumite/flarum-decontaminator/zipball/90f5cef8ec80c60996e3a69edfb870f614292457",
+                "reference": "90f5cef8ec80c60996e3a69edfb870f614292457",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.13"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flarumite Post Decontaminator",
+                    "icon": {
+                        "name": "far fa-eye-slash",
+                        "backgroundColor": "#008000",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flarumite\\PostDecontaminator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Morland",
+                    "email": "ian@flarumite.com"
+                }
+            ],
+            "description": "Apply content checks to discussions/posts using regex",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2020-06-25T20:14:16+00:00"
+        },
+        {
             "name": "fof/best-answer",
             "version": "0.1.11",
             "source": {
@@ -2355,6 +3206,862 @@
             "time": "2020-05-10T19:55:49+00:00"
         },
         {
+            "name": "fof/discussion-thumbnail",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/discussion-thumbnail.git",
+                "reference": "fcc9fd35962f3259fb1894c3f76821d025111f43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/discussion-thumbnail/zipball/fcc9fd35962f3259fb1894c3f76821d025111f43",
+                "reference": "fcc9fd35962f3259fb1894c3f76821d025111f43",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Discussion Thumbnail",
+                    "icon": {
+                        "name": "fas fa-image",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/22231-friendsofflarum-discussion-thumbnail"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\DiscussionThumbnail\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martin",
+                    "email": "me+fof@datitisev.me",
+                    "homepage": "https://datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Replace author avatars with the first image in a discussion's starting post",
+            "keywords": [
+                "flarum",
+                "friendsofflarum"
+            ],
+            "time": "2019-12-11T01:04:26+00:00"
+        },
+        {
+            "name": "fof/extend",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/extend.git",
+                "reference": "995839056a2cf1cd04725102faaac94218d0fc13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/extend/zipball/995839056a2cf1cd04725102faaac94218d0fc13",
+                "reference": "995839056a2cf1cd04725102faaac94218d0fc13",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.12"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Extend\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org"
+                }
+            ],
+            "description": "Configurable PHP components for your Flarum extension",
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-03T20:59:16+00:00"
+        },
+        {
+            "name": "fof/filter",
+            "version": "0.1.0-beta.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/filter.git",
+                "reference": "130d54f87e569730d5a2e9ec6f596f5585db5e95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/filter/zipball/130d54f87e569730d5a2e9ec6f596f5585db5e95",
+                "reference": "130d54f87e569730d5a2e9ec6f596f5585db5e95",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/approval": "^0.1.0-beta.8",
+                "flarum/core": "^0.1.0-beta.8",
+                "flarum/flags": "^v0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Filter",
+                    "icon": {
+                        "name": "fas fa-filter",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Filter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie K",
+                    "email": "charlie.k@redevs.org"
+                }
+            ],
+            "description": "Filter out words and phrases from forum posts",
+            "keywords": [
+                "moderation"
+            ],
+            "time": "2020-02-19T22:11:43+00:00"
+        },
+        {
+            "name": "fof/formatting",
+            "version": "0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/formatting.git",
+                "reference": "8a59cf8149945ccedaa5692f907ec7f7113d132b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/formatting/zipball/8a59cf8149945ccedaa5692f907ec7f7113d132b",
+                "reference": "8a59cf8149945ccedaa5692f907ec7f7113d132b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8",
+                "fof/components": ">=0.1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Formatting",
+                    "icon": {
+                        "name": "fas fa-font",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/17770-friendsofflarum-formatting"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Formatting\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Customize TextFormatter with plugins through the admin interface",
+            "keywords": [
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-20T11:29:24+00:00"
+        },
+        {
+            "name": "fof/links",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/links.git",
+                "reference": "f88d29b14f31ac5629b88dcc1fbc61448ec56178"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/links/zipball/f88d29b14f31ac5629b88dcc1fbc61448ec56178",
+                "reference": "f88d29b14f31ac5629b88dcc1fbc61448ec56178",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14"
+            },
+            "replace": {
+                "sijad/flarum-ext-links": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Links",
+                    "icon": {
+                        "name": "fas fa-bars",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18335-friendsofflarum-links"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Links\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                },
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manage Flarum primary navbar menu links",
+            "keywords": [
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-04T11:52:44+00:00"
+        },
+        {
+            "name": "fof/masquerade",
+            "version": "0.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/masquerade.git",
+                "reference": "5b30a65cb7a10519db7c72afa70ea2a8f79e3a5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/masquerade/zipball/5b30a65cb7a10519db7c72afa70ea2a8f79e3a5f",
+                "reference": "5b30a65cb7a10519db7c72afa70ea2a8f79e3a5f",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "replace": {
+                "flagrow/masquerade": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Masquerade",
+                    "icon": {
+                        "image": "resources/logo.svg",
+                        "backgroundColor": "#e74c3c",
+                        "backgroundSize": "90%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5791"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Masquerade\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "User profile builder extension for your Flarum forum.",
+            "keywords": [
+                "extension",
+                "flarum",
+                "member profile",
+                "profile",
+                "user profile"
+            ],
+            "time": "2019-07-28T15:44:45+00:00"
+        },
+        {
+            "name": "fof/merge-discussions",
+            "version": "0.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/merge-discussions.git",
+                "reference": "d89269b79f51f2e6f22e27d7d2a68285f5f7ac80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/merge-discussions/zipball/d89269b79f51f2e6f22e27d7d2a68285f5f7ac80",
+                "reference": "d89269b79f51f2e6f22e27d7d2a68285f5f7ac80",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Merge Discussions",
+                    "icon": {
+                        "name": "fas fa-code-branch fa-flip-vertical",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/19460-friendsofflarum-merge-discussions"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\MergeDiscussions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Merge two or more discussions into one",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2019-09-25T22:10:20+00:00"
+        },
+        {
+            "name": "fof/moderator-notes",
+            "version": "0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/moderator-notes.git",
+                "reference": "b0c3496b3ae3db4d5e36993327ff7c88850c085f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/moderator-notes/zipball/b0c3496b3ae3db4d5e36993327ff7c88850c085f",
+                "reference": "b0c3496b3ae3db4d5e36993327ff7c88850c085f",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Moderator Notes",
+                    "icon": {
+                        "name": "fas fa-sticky-note",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/22925"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\ModeratorNotes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Morland",
+                    "email": "ianm@giffgaff.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "David Sevilla Martin",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create private notes for your forum users",
+            "keywords": [
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-26T12:28:11+00:00"
+        },
+        {
+            "name": "fof/passport",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/passport.git",
+                "reference": "e9235d315431010fe6ad679f555f664c81661afa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/passport/zipball/e9235d315431010fe6ad679f555f664c81661afa",
+                "reference": "e9235d315431010fe6ad679f555f664c81661afa",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14",
+                "league/oauth2-client": "^2.3.0"
+            },
+            "replace": {
+                "flagrow/passport": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Passport",
+                    "icon": {
+                        "name": "fas fa-key",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5203"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Passport\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "https://hyn.me/"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "The OAuth2 (and Laravel passport) compatible oauth extension",
+            "keywords": [
+                "flarum",
+                "league",
+                "oauth",
+                "oauth2",
+                "passport"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-23T02:25:26+00:00"
+        },
+        {
+            "name": "fof/realtimedate",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/realtimedate.git",
+                "reference": "99946e6a34bc5cb134d6308d37415516bc5613a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/realtimedate/zipball/99946e6a34bc5cb134d6308d37415516bc5613a2",
+                "reference": "99946e6a34bc5cb134d6308d37415516bc5613a2",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.11"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Real Time Date",
+                    "icon": {
+                        "name": "fas fa-clock",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie Kern",
+                    "email": "charlie.k@redevs.org",
+                    "homepage": "https://redevs.org"
+                }
+            ],
+            "description": "Makes humantime update in real time",
+            "keywords": [
+                "Friends of Flarum",
+                "extension",
+                "flarum",
+                "realtime"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-26T04:40:20+00:00"
+        },
+        {
+            "name": "fof/recaptcha",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/recaptcha.git",
+                "reference": "0ecda4be258520903a87a2ae9878b66beb6cd64a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/recaptcha/zipball/0ecda4be258520903a87a2ae9878b66beb6cd64a",
+                "reference": "0ecda4be258520903a87a2ae9878b66beb6cd64a",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8",
+                "google/recaptcha": "^1.2"
+            },
+            "replace": {
+                "sijad/flarum-ext-recaptcha": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF reCAPTCHA",
+                    "icon": {
+                        "name": "fas fa-robot",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18399-friendsofflarum-recaptcha"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\ReCaptcha\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                },
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Increase your forum's security with Google reCAPTCHA",
+            "keywords": [
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-04T21:46:27+00:00"
+        },
+        {
+            "name": "fof/terms",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/terms.git",
+                "reference": "261351012b2928c4aa705f60db3d44544b939ed4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/terms/zipball/261351012b2928c4aa705f60db3d44544b939ed4",
+                "reference": "261351012b2928c4aa705f60db3d44544b939ed4",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14"
+            },
+            "conflict": {
+                "reflar/user-management": "^0.1.0"
+            },
+            "replace": {
+                "flagrow/terms": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Terms",
+                    "icon": {
+                        "name": "fas fa-paperclip",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/11714"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Terms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Ask users to accept terms of use before using the forum",
+            "keywords": [
+                "Policy",
+                "extension",
+                "flarum",
+                "terms",
+                "tos"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-04T17:41:12+00:00"
+        },
+        {
+            "name": "fof/user-bio",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/user-bio.git",
+                "reference": "58d5da04d723bcc591379673366cd864fc6ea317"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/user-bio/zipball/58d5da04d723bcc591379673366cd864fc6ea317",
+                "reference": "58d5da04d723bcc591379673366cd864fc6ea317",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF User Bio",
+                    "icon": {
+                        "name": "fas fa-pen",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\UserBio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie K",
+                    "email": "charlie.k@redevs.org",
+                    "homepage": "https://redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add the user bio back into Flarum",
+            "keywords": [
+                "Friends of Flarum",
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-06-25T17:09:09+00:00"
+        },
+        {
+            "name": "fof/user-directory",
+            "version": "0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/user-directory.git",
+                "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/user-directory/zipball/414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+                "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8",
+                "fof/components": ">=0.1.0"
+            },
+            "replace": {
+                "flagrow/user-directory": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF User Directory",
+                    "icon": {
+                        "name": "far fa-address-book",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5682"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\UserDirectory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "https://luceos.com/"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "The permission based public user directory extension for your Flarum forum.",
+            "keywords": [
+                "extension",
+                "flarum",
+                "member list",
+                "user directory",
+                "user list"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-11T02:51:50+00:00"
+        },
+        {
             "name": "franzl/whoops-middleware",
             "version": "0.4.1",
             "source": {
@@ -2383,6 +4090,53 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "time": "2016-04-27T14:08:29+00:00"
+        },
+        {
+            "name": "google/recaptcha",
+            "version": "1.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/recaptcha.git",
+                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/614f25a9038be4f3f2da7cbfd778dc5b357d2419",
+                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.2.20|^2.15",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7.5.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ReCaptcha\\": "src/ReCaptcha"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Client library for reCAPTCHA, a free service that protects websites from spam and abuse.",
+            "homepage": "https://www.google.com/recaptcha/",
+            "keywords": [
+                "Abuse",
+                "captcha",
+                "recaptcha",
+                "spam"
+            ],
+            "time": "2020-03-31T17:50:54+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3528,6 +5282,72 @@
             "time": "2019-11-02T09:15:47+00:00"
         },
         {
+            "name": "justinrainbow/json-schema",
+            "version": "5.2.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
+                "json-schema/json-schema-test-suite": "1.2.0",
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "time": "2020-05-27T16:41:55+00:00"
+        },
+        {
             "name": "kylekatarnls/update-helper",
             "version": "1.2.1",
             "source": {
@@ -4341,6 +6161,67 @@
                 "relative"
             ],
             "time": "2019-02-05T23:41:09+00:00"
+        },
+        {
+            "name": "michaelbelgium/flarum-discussion-views",
+            "version": "v4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MichaelBelgium/flarum-discussion-views.git",
+                "reference": "69f90d6566ee50ef5b814c3855c9213c298385fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MichaelBelgium/flarum-discussion-views/zipball/69f90d6566ee50ef5b814c3855c9213c298385fc",
+                "reference": "69f90d6566ee50ef5b814c3855c9213c298385fc",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.13"
+            },
+            "suggest": {
+                "dynastyking/flarum-lang-ptbr": "Includes Brazilian Portuguese translation for this extension",
+                "michaelbelgium/flarum-dutch": "Includes Dutch translation for this extension",
+                "rob006/flarum-lang-polish": "Includes Polish translation for this extension",
+                "rooaaar/lang-french-extended": "Includes French translation for this extension"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Discussion views",
+                    "icon": {
+                        "name": "far fa-eye",
+                        "backgroundColor": "#88CC23",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/7339"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Michaelbelgium\\Discussionviews\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael V.",
+                    "email": "michael@michaelbelgium.me"
+                }
+            ],
+            "description": "Add views to flarum discussions",
+            "funding": [
+                {
+                    "url": "https://github.com/MichaelBelgium",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-05-21T17:44:44+00:00"
         },
         {
             "name": "middlewares/base-path",
@@ -5423,6 +7304,109 @@
             "time": "2020-06-22T00:41:41+00:00"
         },
         {
+            "name": "seld/jsonlint",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-30T19:05:18+00:00"
+        },
+        {
+            "name": "seld/phar-utils",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/phar-utils.git",
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\PharUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be"
+                }
+            ],
+            "description": "PHAR file format utilities, for when PHP phars you up",
+            "keywords": [
+                "phar"
+            ],
+            "time": "2020-02-14T15:25:33+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.3",
             "source": {
@@ -5483,6 +7467,54 @@
                 "mailer"
             ],
             "time": "2019-11-12T09:31:26+00:00"
+        },
+        {
+            "name": "sycho/flarum-profile-cover",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SychO9/flarum-profile-cover.git",
+                "reference": "74f930ed07ac5a6dfbae2f3df86bcde082606202"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SychO9/flarum-profile-cover/zipball/74f930ed07ac5a6dfbae2f3df86bcde082606202",
+                "reference": "74f930ed07ac5a6dfbae2f3df86bcde082606202",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.10",
+                "fof/extend": ">=0.2.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Profile Cover",
+                    "icon": {
+                        "name": "fas fa-image",
+                        "backgroundColor": "#004957",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SychO\\ProfileCover\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sami 'SychO' Mazouz",
+                    "email": "ilyasmazouz@gmail.com",
+                    "homepage": "https://sycho9.github.io"
+                }
+            ],
+            "description": "Adds the ability to add a cover image to a profile.",
+            "time": "2020-04-11T21:10:01+00:00"
         },
         {
             "name": "symfony/config",
@@ -7034,6 +9066,58 @@
             "time": "2020-05-11T07:51:54+00:00"
         },
         {
+            "name": "therealsujitk/flarum-ext-show-password",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/therealsujitk/flarum-ext-show-password.git",
+                "reference": "ccef295e8d7ce035d17ee35635c8f22878a2e338"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/therealsujitk/flarum-ext-show-password/zipball/ccef295e8d7ce035d17ee35635c8f22878a2e338",
+                "reference": "ccef295e8d7ce035d17ee35635c8f22878a2e338",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Show Password",
+                    "icon": {
+                        "name": "fas fa-eye",
+                        "backgroundColor": "#ff9c59",
+                        "color": "#000000"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/22727"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Therealsujitk\\ShowPassword\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sujit Kumar",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Toggle password visibility.",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2020-03-21T14:25:40+00:00"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.2",
             "source": {
@@ -7244,12 +9328,61 @@
                 "stylesheet"
             ],
             "time": "2020-03-11T23:01:29+00:00"
+        },
+        {
+            "name": "zerosonesfun/elint",
+            "version": "1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zerosonesfun/elint.git",
+                "reference": "ad27466b01d75a545b86618906c55f76b514393a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zerosonesfun/elint/zipball/ad27466b01d75a545b86618906c55f76b514393a",
+                "reference": "ad27466b01d75a545b86618906c55f76b514393a",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "elint",
+                    "icon": {
+                        "name": "fas fa-external-link-square-alt",
+                        "backgroundColor": "#ddd",
+                        "color": "#000"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZerosOnesFun\\Elint\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Billy Wilcosky",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Open only external links in a new tab.",
+            "time": "2020-06-21T12:52:55+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "datitisev/flarum-ext-dashboard": 10,
+        "fof/filter": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

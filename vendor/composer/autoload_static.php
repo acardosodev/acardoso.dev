@@ -64,6 +64,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
             'axy\\codecs\\base64vlq\\' => 21,
             'axy\\backtrace\\' => 14,
         ),
+        'Z' => 
+        array (
+            'ZerosOnesFun\\Elint\\' => 19,
+        ),
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -76,6 +80,7 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         array (
             'Tobscure\\JsonApi\\' => 17,
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
+            'Therealsujitk\\ShowPassword\\' => 27,
         ),
         'S' => 
         array (
@@ -100,6 +105,13 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
+            'SychO\\ProfileCover\\' => 19,
+            'Seld\\PharUtils\\' => 15,
+            'Seld\\JsonLint\\' => 14,
+        ),
+        'R' => 
+        array (
+            'ReCaptcha\\' => 10,
         ),
         'P' => 
         array (
@@ -118,6 +130,7 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
             'Monolog\\' => 8,
             'Middlewares\\Utils\\' => 18,
             'Middlewares\\' => 12,
+            'Michaelbelgium\\Discussionviews\\' => 31,
             'MatthiasMullie\\PathConverter\\' => 29,
             'MatthiasMullie\\Minify\\' => 22,
         ),
@@ -131,6 +144,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
             'Laminas\\HttpHandlerRunner\\' => 26,
             'Laminas\\Escaper\\' => 16,
             'Laminas\\Diactoros\\' => 18,
+        ),
+        'J' => 
+        array (
+            'JsonSchema\\' => 11,
         ),
         'I' => 
         array (
@@ -163,9 +180,23 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         'F' => 
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
+            'FoF\\UserDirectory\\' => 18,
+            'FoF\\UserBio\\' => 12,
+            'FoF\\Terms\\' => 10,
+            'FoF\\ReCaptcha\\' => 14,
+            'FoF\\Passport\\' => 13,
+            'FoF\\ModeratorNotes\\' => 19,
+            'FoF\\MergeDiscussions\\' => 21,
+            'FoF\\Masquerade\\' => 15,
+            'FoF\\Links\\' => 10,
+            'FoF\\Formatting\\' => 15,
+            'FoF\\Filter\\' => 11,
+            'FoF\\Extend\\' => 11,
+            'FoF\\DiscussionThumbnail\\' => 24,
             'FoF\\Console\\' => 12,
             'FoF\\Components\\' => 15,
             'FoF\\BestAnswer\\' => 15,
+            'Flarumite\\PostDecontaminator\\' => 29,
             'Flarum\\Tags\\' => 12,
             'Flarum\\Suspend\\' => 15,
             'Flarum\\Subscriptions\\' => 21,
@@ -181,11 +212,13 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
             'Flarum\\Auth\\Facebook\\' => 21,
             'Flarum\\Approval\\' => 16,
             'Flarum\\' => 7,
+            'Flagrow\\Fonts\\' => 14,
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
         ),
         'E' => 
         array (
+            'Extiverse\\Bazaar\\' => 17,
             'Egulias\\EmailValidator\\' => 23,
         ),
         'D' => 
@@ -197,10 +230,23 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
+            'Datitisev\\Dashboard\\' => 20,
         ),
         'C' => 
         array (
             'Cron\\' => 5,
+            'Composer\\XdebugHandler\\' => 23,
+            'Composer\\Spdx\\' => 14,
+            'Composer\\Semver\\' => 16,
+            'Composer\\CaBundle\\' => 18,
+            'Composer\\' => 9,
+            'ClarkWinkelmann\\ColorfulBorders\\' => 32,
+        ),
+        'A' => 
+        array (
+            'Askvortsov\\FlarumPWA\\' => 21,
+            'Askvortsov\\FlarumDiscussionTemplates\\' => 37,
+            'Askvortsov\\FlarumCopyLinks\\' => 27,
         ),
     );
 
@@ -233,6 +279,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         array (
             0 => __DIR__ . '/..' . '/axy/backtrace',
         ),
+        'ZerosOnesFun\\Elint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zerosonesfun/elint/src',
+        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
@@ -248,6 +298,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
+        ),
+        'Therealsujitk\\ShowPassword\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/therealsujitk/flarum-ext-show-password/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -333,6 +387,22 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
+        'SychO\\ProfileCover\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sycho/flarum-profile-cover/src',
+        ),
+        'Seld\\PharUtils\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/phar-utils/src',
+        ),
+        'Seld\\JsonLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
+        ),
+        'ReCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
+        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -372,6 +442,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
             0 => __DIR__ . '/..' . '/middlewares/base-path/src',
             1 => __DIR__ . '/..' . '/middlewares/base-path-router/src',
             2 => __DIR__ . '/..' . '/middlewares/request-handler/src',
+        ),
+        'Michaelbelgium\\Discussionviews\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/michaelbelgium/flarum-discussion-views/src',
         ),
         'MatthiasMullie\\PathConverter\\' => 
         array (
@@ -414,6 +488,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         'Laminas\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
+        ),
+        'JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
         'Intervention\\Image\\' => 
         array (
@@ -507,6 +585,58 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         array (
             0 => __DIR__ . '/..' . '/franzl/whoops-middleware/src',
         ),
+        'FoF\\UserDirectory\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/user-directory/src',
+        ),
+        'FoF\\UserBio\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/user-bio/src',
+        ),
+        'FoF\\Terms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/terms/src',
+        ),
+        'FoF\\ReCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/recaptcha/src',
+        ),
+        'FoF\\Passport\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/passport/src',
+        ),
+        'FoF\\ModeratorNotes\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/moderator-notes/src',
+        ),
+        'FoF\\MergeDiscussions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/merge-discussions/src',
+        ),
+        'FoF\\Masquerade\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/masquerade/src',
+        ),
+        'FoF\\Links\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/links/src',
+        ),
+        'FoF\\Formatting\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/formatting/src',
+        ),
+        'FoF\\Filter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/filter/src',
+        ),
+        'FoF\\Extend\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/extend/src',
+        ),
+        'FoF\\DiscussionThumbnail\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/discussion-thumbnail/src',
+        ),
         'FoF\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/console/src',
@@ -518,6 +648,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         'FoF\\BestAnswer\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/best-answer/src',
+        ),
+        'Flarumite\\PostDecontaminator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flarumite/flarum-decontaminator/src',
         ),
         'Flarum\\Tags\\' => 
         array (
@@ -579,6 +713,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
         ),
+        'Flagrow\\Fonts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/fonts/src',
+        ),
         'Fig\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/fig/http-message-util/src',
@@ -586,6 +724,10 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Extiverse\\Bazaar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/extiverse/bazaar/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -619,9 +761,49 @@ class ComposerStaticInit2cef6f666abf63e0ba380b5eb181a503
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
         ),
+        'Datitisev\\Dashboard\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/datitisev/flarum-ext-dashboard/src',
+        ),
         'Cron\\' => 
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
+        ),
+        'Composer\\XdebugHandler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/xdebug-handler/src',
+        ),
+        'Composer\\Spdx\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/spdx-licenses/src',
+        ),
+        'Composer\\Semver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Composer\\CaBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
+        ),
+        'Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/composer/src/Composer',
+        ),
+        'ClarkWinkelmann\\ColorfulBorders\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/clarkwinkelmann/flarum-ext-colorful-borders/src',
+        ),
+        'Askvortsov\\FlarumPWA\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/askvortsov/flarum-pwa/src',
+        ),
+        'Askvortsov\\FlarumDiscussionTemplates\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/askvortsov/flarum-discussion-templates/src',
+        ),
+        'Askvortsov\\FlarumCopyLinks\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/askvortsov/flarum-copy-links/src',
         ),
     );
 
