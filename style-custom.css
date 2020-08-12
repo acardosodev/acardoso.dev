@@ -1,0 +1,15 @@
+.Header-logo {
+    max-height: 60px !important
+}
+
+@media (min-width: 1100px) {
+    .container {
+        min-width: 1100px !important;
+        width: 90% !important;
+    }
+}
+.IndexPage-nav .item-newDiscussion .Button,.DiscussionPage-nav .ButtonGroup{
+	
+}
+
+
